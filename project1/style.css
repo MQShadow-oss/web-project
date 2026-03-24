@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+:root {
+    --color:#4502c7 ;
+}
+* {
+    font-family: "Lexend Deca", sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+.body {
+
+}
+/* top-header  */
+.top-header {
+    background-color: var(--color);
+    padding: 10px 0;
+}
+.container {
+    width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-header .inner-wrap {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px 40px;
+}
+.top-header .inner-icon {
+    color: #fffbeb;
+    font-size: 14px;
+    font-weight: 400;
+    /* inline la 1 hang flex xep thang 1 hangf */
+    display: inline-flex; 
+    align-items: center;
+    gap : 8px;
+
+}
+.top-header .inner-icon i {
+    font-size: 20px;
+    
+}
+/* end top-header  */
+/* header  */
+.header {
+    background-color: #ffffff;
+    padding: 12px 0;
+}
+.header .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .inner-wrap .logo img {
+
+   width: auto;
+   height: 50px;
+}
+.header .inner-menu >ul {
+    display: flex;
+    gap: 5px 20px;
+}
+.header .inner-menu >ul >li {
+    position: relative;
+}
+.header .inner-menu >ul> li> a {
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #25282b;
+  text-transform: capitalize;
+}
+.header .inner-cart img {
+    width: 20px;height: 20px;
+    background-color: #ffffff;
+}
+.header .inner-menu >ul> li> a:hover {
+    color: var(--color);
+}
+ 
+/* End header  */
