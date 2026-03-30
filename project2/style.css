@@ -132,6 +132,7 @@ body {
 	font-size: 16px;
 	padding-left: 10px;
 	padding-bottom: 5px;
+	color: black;
 }	
 .main-item .sell {
 	color: green;
@@ -181,5 +182,12 @@ body {
 }
 .footer-item ul li :hover {
 	color: var(--colors);
+}
+.back {
+	width: 100px;
+	height: 30px;
+	background-color: var(--colors);
+	color: white;
+	
 }
 /* end footer  */
