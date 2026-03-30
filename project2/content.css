@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	 font-family: "Lexend Deca", sans-serif;
+}
+:root {
+	--colors: #2199c4;
+}
+*{
+	text-decoration: none;
+	list-style: none;
+}
+/* header  */
+.header {
+	
+    width: 100%;
+	background-color: var(--colors);
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.inner1{
+	display: flex;
+	gap: 200px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.inner1 ul {
+		display: flex;
+}
+.header .innerr {
+	display: flex
+}
+.header .inner-logo img {
+	width: 120px;
+	height: 25px;
+}
+.inner-logo {
+	padding-top: 10px;
+	padding-bottom: 29px;
+	padding-right: 57px;
+	
+}
+.header .search {
+	display: flex;
+}
+.icon {
+	display: flex;
+	position: relative;
+	left: -130px;
+     bottom: -3px;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	background-color: tomato;
+	padding-top: 10px;
+	border-radius: 16px;
+}
+.icon i {
+	color: white;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+
+.icon .content {
+	color: white;
+	font-size: 18px;
+}
+.inner1 a {
+	color: white;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.inner1 a:hover {
+	color: violet
+}
+.header .desc input {
+	width: 800px;
+	height: 40px;
+	border-radius: 20px solid #ccc;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+/* End-header  */
+/* content  */
+
+.content .inner-left img {
+	width:300px;
+	height: 500px;
+	object-fit: cover;
+}
+.content .conner-wrap {
+	 gap: 20px;
+	display: flex;
+}
+.content .inner-right {
+	width: 900px;
+	padding-top: 20px;
+}
+.content .inner-right h4 {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+.content .inner-left {
+	width: 325px;
+	height: 510px;
+	background: gray;
+	border-left: 10px solid gray;
+	border-top: 10px solid gray;
+}
+.so-luong {
+	width: 60px;
+	height: 35px;
+	background-color: #c3c3c3;
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.note-chu .chữ {
+	font-size: 20px;
+}
+
+.tru {
+font-size: 20px;
+padding: 5px 20px;
+	background-color: #c3c3c3;
+	margin-left: 15px;
+	border-radius: 10px;
+	margin-right: 25px;
+	
+}
+.cong {
+	font-size: 20px;
+	padding: 5px 20px;
+	border-radius: 10px;
+	background-color: #c3c3c3;
+	margin-left: 25px;
+}
+.note-chu {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.themggio {
+	padding-top: 50px;
+	display: flex;
+	font-size: 18px;
+	gap :40px;
+	padding-bottom: 90px;
+	
+}
+.themggio .he {
+	background-color: #c3c3c3;
+	padding: 6px 10px;     
+	border-radius: 10px;
+}
+.themggio .muangay {
+	background-color: #c3c3c3;
+	padding: 6px 10px;
+	border-radius: 10px;
+}
+.themggio .he:hover {
+	background-color: var(--colors);
+	color: white;
+}
+ .themggio .muangay:hover {
+	background-color: var(--colors);
+	color: white;
+}
+
+
+/* End content   */
+/* product  */
+.product {
+    padding-top: 60px;
+}
+.product .chitiet {
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.product .danhmuc {
+	display: flex;
+	gap: 20px;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+.product .sp {
+	display: flex;
+	gap: 40px;
+	padding-bottom: 10px;
+}
+.mota {
+	font-size: 23px;
+	padding-bottom: 10px;
+}
+.nd {
+	padding-bottom: 7px;
+}
+.nd1 {
+	padding-bottom: 7px;
+	line-height: 1.3;
+}
+.product ul li {
+	padding-bottom: 5px;
+}
+.product  .nd2 {
+	padding-bottom: 27px;
+	
+}
+/* End product  */

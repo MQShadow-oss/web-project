@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	 font-family: "Lexend Deca", sans-serif;
+}
+:root {
+	--colors: #2199c4;
+}
+*{
+	text-decoration: none;
+	list-style: none;
+}
+/* header  */
+.header {
+	width: 100%;
+	background-color: var(--colors);
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.inner1{
+	display: flex;
+	gap: 200px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.inner1 ul {
+		display: flex;
+}
+.header .innerr {
+	display: flex
+}
+.header .inner-logo img {
+	width: 120px;
+	height: 25px;
+}
+.inner-logo {
+	padding-top: 10px;
+	padding-bottom: 29px;
+	padding-right: 57px;
+	
+}
+.header .search {
+	display: flex;
+}
+.icon {
+	display: flex;
+	position: relative;
+	left: -130px;
+     bottom: -3px;
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	background-color: tomato;
+	padding-top: 10px;
+	border-radius: 16px;
+}
+.icon i {
+	color: white;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+.icon .content {
+	color: white;
+	font-size: 18px;
+}
+.inner1 a {
+	color: white;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.inner1 a:hover {
+	color: violet
+}
+.header .desc input {
+	width: 800px;
+	height: 40px;
+	border-radius: 20px solid #ccc;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+/* End-header  */
+/* sidebar */
+.sidebar .main{
+	background-color: #f2f2f2;
+	width: 200px;
+	height: 100vh;
+
+}
+.sidebar ul li{
+	padding-top: 20px;
+	padding-left: 8px;
+}
+.sidebar  ul li a {
+	color: black;
+	font-size: 18px;
+	padding-left: 10px;
+
+	
+}
+/* End sidebar */
+/* content  */
+.main-desc {
+	display: flex;
+	
+}
+.main-desc img {
+	width: 210px;
+    height: 220px;
+	object-fit: cover;
+	position: relative;
+	padding: 10px;
+	display: flex;
+	margin-right: 10px;
+	
+    
+      
+}
+.main-item {
+	width: 230px;height: 360px;
+	background-color: #f2f2f2;
+	margin-right: 10px;
+ position: relative;
+ top: -700px;
+ right: -220px;
+
+}
+.main-item p {
+	font-size: 16px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}	
+.main-item .sell {
+	color: green;
+	font-size: 18px;
+	padding-left: 10px;	
+	padding-bottom: 5px;
+}
+.main-item  .buy {
+	color: white;
+	font-size: 18px;
+   border-radius: 10px;
+   background-color: var(--colors);
+	margin-left: 10px;
+	border: 1px solid var(--colors);
+}
+.main-item  .buy:hover {
+	background-color: white;
+	color: var(--colors);
+	border: 1px solid var(--colors);
+}
+
+/* End content  */
+/* footer */
+.footer {
+	padding-bottom: 980px;
+	background-color: #f2f2f2;
+  border: solid 2px #ccc;
+	padding: 20px;
+}
+.footerr {
+	display: flex;
+	justify-content: space-between;
+}
+.footerr h3 {
+	font-size: 23px;
+	padding-bottom: 8px;
+	color: black;
+}
+.footer-item ul li {
+	padding-top: 10px;
+}
+.footer-item ul li a {
+	color :black;
+	font-size: 18px;
+	padding-top: 15px;
+	margin-bottom: 22px;
+}
+.footer-item ul li :hover {
+	color: var(--colors);
+}
+/* end footer  */

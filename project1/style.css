@@ -59,7 +59,7 @@ a {
 }
 .header .inner-menu >ul {
     display: flex;
-    gap: 5px 20px;
+    gap: 5px 50px;
 }
 .header .inner-menu >ul >li {
     position: relative;
@@ -78,5 +78,28 @@ a {
 .header .inner-menu >ul> li> a:hover {
     color: var(--color);
 }
- 
+.header .inner-menu >ul >li > ul{
+    position: absolute;
+    top: 100%;
+    padding : 8px 0;
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    width: 280px;
+    z-index: 999;
+    display: none;
+}
+.header .inner-menu >ul >li:hover > ul {
+    display: block;
+}
+.header .inner-menu >ul >li > ul >li> a {
+ font-weight: 400;
+ font-size: 16px;
+    color: var(--color);
+    padding: 8px 20px;
+    display: block;
+}
+.header .inner-menu >ul >li > ul >li> a:hover {
+    background-color: var(--color);
+    color: #ffffff;
+}
 /* End header  */
