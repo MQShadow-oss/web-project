@@ -19,6 +19,7 @@ body {
 	width: 1200px;
 	margin: 0 auto;
 }
+
 .inner1{
 	display: flex;
 	gap: 200px;
@@ -29,9 +30,11 @@ body {
 .inner1 ul {
 		display: flex;
 }
+
 .header .innerr {
 	display: flex
 }
+
 .header .inner-logo img {
 	width: 120px;
 	height: 25px;
@@ -123,9 +126,9 @@ body {
 	width: 230px;height: 360px;
 	background-color: #f2f2f2;
 	margin-right: 10px;
- position: relative;
- top: -700px;
- right: -220px;
+	position: relative;
+	top: -700px;
+	right: -220px;
 
 }
 .main-item p {
@@ -143,8 +146,8 @@ body {
 .main-item  .buy {
 	color: white;
 	font-size: 18px;
-   border-radius: 10px;
-   background-color: var(--colors);
+	border-radius: 10px;
+	background-color: var(--colors);
 	margin-left: 10px;
 	border: 1px solid var(--colors);
 }
@@ -159,7 +162,7 @@ body {
 .footer {
 	padding-bottom: 980px;
 	background-color: #f2f2f2;
-  border: solid 2px #ccc;
+    border: solid 2px #ccc;
 	padding: 20px;
 }
 .footerr {
