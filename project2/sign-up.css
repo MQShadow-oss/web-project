@@ -2,13 +2,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-      background: #568aff;
-      
+    background: #568aff;
+    background-image: url(https://statictuoitre.mediacdn.vn/thumb_w/640/2017/7-1512755474943.jpg);
+     background-size: cover;       /* phủ full */
+  background-position: center;  /* căn giữa */
+  background-repeat: no-repeat; /* không lặp */
+  height: 100%;
 }
-.login {
-  
-  
-}
+
 .container {
     width: 430px;
     margin-left: auto;
@@ -23,7 +24,7 @@ body {
     border-radius : 10px;
     margin-top: 145px;
     padding: 40px 40px 20px 40px;
-   
+    background: rgba(223, 215, 215, 0.336);
 }
 .sign-in {
     text-align: center;
