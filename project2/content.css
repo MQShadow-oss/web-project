@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-	 font-family: "Lexend Deca", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 :root {
 	--colors: #2199c4;
@@ -12,17 +11,18 @@ body {
 }
 /* header  */
 .header {
-	
-    width: 100%;
+	width: 100%;
 	background-color: var(--colors);
 }
 .container {
 	width: 1200px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 .inner1{
 	display: flex;
-	gap: 200px;
+	gap: 266px;
 	padding-top: 10px;
 	padding-bottom: 15px;
 }
@@ -30,9 +30,11 @@ body {
 .inner1 ul {
 		display: flex;
 }
+
 .header .innerr {
 	display: flex
 }
+
 .header .inner-logo img {
 	width: 120px;
 	height: 25px;
@@ -45,11 +47,12 @@ body {
 }
 .header .search {
 	display: flex;
+	
 }
 .icon {
 	display: flex;
 	position: relative;
-	left: -130px;
+	left: 20px;
      bottom: -3px;
 	text-align: center;
 	width: 120px;
@@ -63,10 +66,10 @@ body {
 	padding-left: 6px;
 	padding-right: 10px;
 }
-
 .icon .content {
 	color: white;
 	font-size: 18px;
+	
 }
 .inner1 a {
 	color: white;
@@ -83,6 +86,10 @@ body {
 	border: 1px solid #ccc;
 	border-radius: 10px;
 }
+.search .desc {
+	margin-left: 25px;
+}
+
 
 /* End-header  */
 /* content  */
@@ -104,6 +111,7 @@ body {
 	font-size: 24px;
 	padding-bottom: 10px;
 }
+/*
 .content .inner-left {
 	width: 325px;
 	height: 510px;
@@ -111,6 +119,8 @@ body {
 	border-left: 10px solid gray;
 	border-top: 10px solid gray;
 }
+	*/
+
 .so-luong {
 	width: 60px;
 	height: 35px;
