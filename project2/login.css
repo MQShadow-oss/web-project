@@ -1,32 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-    
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
-    font-family: 'Roboto', sans-serif;
-        background-image: url(https://statictuoitre.mediacdn.vn/thumb_w/640/2017/7-1512755474943.jpg);
-  background-size: cover;       /* phủ full */
-  background-position: center;  /* căn giữa */
-  background-repeat: no-repeat; /* không lặp */
-  height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-image: url(https://statictuoitre.mediacdn.vn/thumb_w/640/2017/7-1512755474943.jpg);
+    background-size: cover; /* phủ full */
+    background-position: center; /* căn giữa */
+    background-repeat: no-repeat; /* không lặp */
+    height: 100%;
 }
 .login {
-  
-  
 }
 .container {
     width: 430px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .container .box {
     margin: 20px;
 }
 .inner-box {
     background-color: #fff;
-    border-radius : 10px;
+    border-radius: 10px;
     margin-top: 141px;
     padding: 40px 40px 50px 40px;
-   background: rgba(223, 215, 215, 0.336);
+    background: rgba(223, 215, 215, 0.336);
 }
 .sign-in {
     text-align: center;
@@ -39,28 +36,27 @@ body {
     text-align: center;
     padding-bottom: 10px;
 }
-.email, .password {
+.email,
+.password {
     display: flex;
     flex-direction: column;
-
 }
 .inner-forget {
     display: flex;
     justify-content: space-between;
-    padding-top:10px;
+    padding-top: 10px;
 }
 .note-pass {
     display: flex;
-    justify-content : space-between;
+    justify-content: space-between;
     padding-top: 10px;
-    
 }
 .email {
-    padding-bottom :11px;
+    padding-bottom: 11px;
 }
 .password {
-    padding-top :7px;
-    padding-bottom :7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .email .input {
     padding-bottom: 10px;
@@ -77,25 +73,28 @@ button {
     font-weight: 500;
     line-height: 45px;
     border-radius: 50px;
-    
     text-align: center;
     text-transform: uppercase;
     background-color: #03bcfa;
-    margin-top :12px;
+    margin-top: 12px;
     margin-bottom: 20px;
+    border: 2px solid #03bcfa;
 }
 button:hover {
-background-color: #03afe9;
+    background-color: #03afe9;
 }
 .dang-nhap a {
     text-decoration: none;
     color: #333;
 }
 .dangky a {
-     color: #333;
-     text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 .dangky a:hover {
     color: violet;
-
+}
+.Home1 {
+    width: 160px;
+   margin-left: 675px;
 }

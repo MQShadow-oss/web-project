@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background: #568aff;
     background-image: url(https://statictuoitre.mediacdn.vn/thumb_w/640/2017/7-1512755474943.jpg);
-     background-size: cover;       /* phủ full */
-  background-position: center;  /* căn giữa */
-  background-repeat: no-repeat; /* không lặp */
-  height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .container {
     width: 430px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .container .box {
     margin: 20px;
 }
 .inner-box {
     background-color: #fff;
-    border-radius : 10px;
+    border-radius: 10px;
     margin-top: 145px;
     padding: 40px 40px 20px 40px;
     background: rgba(223, 215, 215, 0.336);
@@ -37,10 +36,11 @@ body {
     text-align: center;
     padding-bottom: 10px;
 }
-.email, .password, .date {
+.email,
+.password,
+.date {
     display: flex;
     flex-direction: column;
-
 }
 .inner-forget {
     display: flex;
@@ -49,20 +49,20 @@ body {
 }
 .note-pass {
     display: flex;
-    justify-content : space-between;
+    justify-content: space-between;
     padding-top: 10px;
 }
 .use-name {
-    padding-bottom :5px;
-
+    padding-bottom: 5px;
 }
 .email {
     padding-top: 4px;
-    padding-bottom :9px;
+    padding-bottom: 9px;
 }
 .password {
-    padding-top :7px;
-        padding-bottom :7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
 }
 .email .input {
     padding-bottom: 10px;
@@ -83,32 +83,36 @@ button {
     text-align: center;
     text-transform: uppercase;
     background-color: #03bcfa;
-    margin-top :12px;
+    margin-top: 12px;
     margin-bottom: 20px;
+    border: 2px solid #03bcfa;
 }
 button:hover {
-    background-color: #02a7de
+    background-color: #02a7de;
 }
 .dang-nhap a {
     text-decoration: none;
     color: #333;
 }
 .dangky a {
-     color: #333;
-     text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 .dangky a:hover {
     color: violet;
-
 }
 .inner-box-date .date {
     padding-top: 7px;
     padding-bottom: 8px;
-    
 }
 .inner-box-date .date input {
     width: 100%;
     height: 35px;
     border-radius: 7px;
+    
 }
-
+.Home1 {
+    width: 160px;
+    margin-left: 675px;
+   border: 2px solid #03bcfa;
+}
